@@ -1,0 +1,65 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CrystalCollectors!</title>
+    <!--- Jquery link --->
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>CrystalsCollector!</h1>
+    </header>
+
+    <main>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will 
+           add a specific amount of points to your score. 
+           You will win the game by matching your total score to
+           random number you lose the game  if your total score goes above
+           the random number.</p>
+        <p>The value of each crystal is hidden from you until you 
+           click on it.</p>
+        <p>Each time when the game starts, the game will change the
+           values of each crystal.</p>
+    </main>
+
+    
+        <div class="computer">
+            <p id="random-number-text" class="random-text"></p>
+        </div>
+
+        <div class="scores">
+            <p id="win-text">Wins:</p>
+            <p id="loss-text">Losses:</p>
+        </div>
+
+
+    <div class="images">
+        <img id="crystal-red" class="red" src="http://clipart-library.com/img1/477295.jpg" value="red" width="100" height="100" alt="red-crystal">
+        <img id="crystal-blue" class="blue" src="https://png.pngtree.com/element_origin_min_pic/17/04/07/44d6d9a83f9e82a926faf9ad7e381175.jpg" value="blue" alt="blue-crystal" width="100" height="100">
+        <img id="crystal-yellow" class="yellow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYFdiB0C5pLMRGw42RJDsUfpsQ3GMRCysHidNbp0AkVMH9cgF" value="yellow" alt="yellow-crystal" width="100" height="100">
+        <img id="crystal-green" class="green" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLQS7MR4ahiXNsTAYArjZlBHs0bpEPSgD66zpdH3Y-xl2M6jxZ" value="green" alt="green-crystal" width="100" height="100">
+    </div>
+    
+    <div class="total-score">
+        <p id="your-text">Your total score is:</p>
+        <p id="total-score">0</p>
+    </div>
+                
+
+
+    
+                <!--- JavaScript Link --->
+
+    <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    background: url("https://st2.depositphotos.com/3532197/5240/v/950/depositphotos_52408087-stock-illustration-cartoon-diamond-seamless-background.jpg");
+    margin: 20px 0px 10px 20px;
+    
+    
+}
+
+header {
+    margin: 0px;
+}
+
+h1 {
+    background: orange;
+    width: 30%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+main {
+    background: rgb(255, 225, 168);
+    width: 30%;
+    padding: 10px 10px 60px 10px;
+    line-height: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Your Score Section */ 
+.computer {
+    background: green;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0px 0px 0px;
+    display: inline-grid;
+    font-size: 35px;   
+    
+    
+}
+
+
+/* Your Score */
+.scores {
+    width: 80px;
+    height: 150px;
+    background: turquoise;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+/* Image Section */
+.images {
+    margin: 20px 0px 0px 0px;
+}
+img {
+    margin: 0px 10px 0px 0px;
+}
+
+
+/* Small Text Area */
+#your-text {
+    background: rgb(11, 129, 129);
+    width: 400px;
+    height: 50px;  
+}
+
+/* Total Score area */
+#total-score {
+    background: rgb(11, 129, 129);
+    width: 400px;
+    height: 150px;
+    font-size: 35px
+}
