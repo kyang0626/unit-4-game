@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collector
 
 1. This project is a game made to implement jquery concepts.
 
